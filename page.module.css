@@ -1,0 +1,62 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  gap: 2em;
+}
+
+.main h2 {
+  color: #fff;
+  font-size: 3.2em;
+  display: block;
+  position: absolute;
+}
+
+.main img {
+  margin-top: 100px;
+  display: block;
+  position: absolute;
+}
+
+/* btn grp */
+.main .button_group {
+  margin-top: 500px;
+}
+
+.button {
+  font-size: 18px;
+  outline: 0;
+  border: 0;
+  will-change: box-shadow, transform;
+  background: radial-gradient(circle, #ff84c1, #ff3399);
+  padding: 0 2em;
+  border-radius: 0.3em;
+  color: #fff;
+  height: 2.6em;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  position: absolute;
+  margin: 0 10px;
+  padding: 10px 30px;
+
+}
+
+.button:hover {
+  transform: translateY(-0.1em);
+}
+
+.button:active {
+  box-shadow: inset 0px 0.1em 0.6em #ff8cc6;
+  transform: translateY(0em);
+}
+
+.btn_no {
+  display: inline-flex;
+  right: 50%;
+  width: 90px;
+}
